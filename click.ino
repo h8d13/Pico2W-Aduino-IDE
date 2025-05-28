@@ -1,6 +1,7 @@
 #include "Adafruit_TinyUSB.h"
+// test simple left click
 
-// HID report descriptor using TinyUSB's built-in template
+// use tinyusb built in desc
 uint8_t const desc_hid_report[] = {
   TUD_HID_REPORT_DESC_MOUSE()
 };
